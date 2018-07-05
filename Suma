@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	double n1,n2,suma,resta,multiplicaion,division;
+	cout<<"Ingrese primer número: ";cin>>n1;
+	cout<<"Ingrese segundo número: ";cin>>n2;
+	suma=n1+n2;
+	cout<<"\nLa suma es: "<<suma;
+	return 0;
+}
